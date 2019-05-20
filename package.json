@@ -1,0 +1,27 @@
+{
+  "name": "coding",
+  "version": "1.0.0",
+  "description": "Gestão & Mais website project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "keywords": [],
+  "author": "Lauriel Mesquita",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^4.3.1",
+    "next": "^8.1.0",
+    "next-compose-plugins": "^2.2.0",
+    "next-images": "^1.1.1",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "reactstrap": "^8.0.0"
+  },
+  "devDependencies": {}
+}

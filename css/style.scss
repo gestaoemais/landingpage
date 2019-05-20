@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:600|Roboto:300,400,700&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Font rules
+$hd-ft: 'Raleway',
+sans-serif;
+$bd-ft: 'Roboto',
+sans-serif;
+
+// Rem variables
+$vr-06: 0.3375rem;
+$vr-12: 0.75rem;
+$vr-20: 1.25rem;
+$vr-40: 2.5rem;
+
+// Colors variables
+$main-dark: #303439;
+
+// Transitions
+@mixin trs-03 {
+    transition: all 0.3s ease-in-out;
+}
+
+body {
+    font-family: $bd-ft;
+}
+
+a, a i {
+    @include trs-03;
+}
+
+.navbar {
+    padding-top: $vr-20;
+    padding-bottom: $vr-20;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-weight: 300;
+    padding-top: $vr-06;
+    padding-right: $vr-12;
+    padding-bottom: $vr-06;
+    padding-left: $vr-12;
+
+    &:hover,
+    &.active {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    &:hover i.fa-instagram {
+        color: rgba(255, 220, 125, 1);
+    }
+
+    &:hover i.fa-linkedin-in {
+        color: rgba(0, 160, 220, 1);
+    }
+
+    &:hover i.fa-facebook-f {
+        color: rgba(24, 119, 242, 1);
+    }
+
+    &:hover i.fa-twitter {
+        color: rgba(29, 161, 242, 1);
+    }
+}
+
+.bg-dark {
+    background-color: $main-dark !important;
+}
+
+.navbar-brand {
+    width: 196.7px;
+    height: 36px;
+    padding: 0;
+    margin-right: $vr-40;
+}
