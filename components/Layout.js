@@ -51,10 +51,10 @@ export default class extends React.Component {
                             </Nav>
                             <Nav className='ml-auto' navbar>
                                 <NavItem>
-                                    <NavLink href='#' className="pr-3 d-inline-block" title="LinkedIn"><i class="fab fa-linkedin-in"></i></NavLink>
-                                    <NavLink href='#' className="pr-3 d-inline-block" title="Instagram"><i class="fab fa-instagram"></i></NavLink>
-                                    <NavLink href='#' className="pr-3 d-inline-block" title="Facebook"><i class="fab fa-facebook-f"></i></NavLink>
-                                    <NavLink href='#' className="pr-3 d-inline-block" title="Twitter"><i class="fab fa-twitter"></i></NavLink>
+                                    <NavLink href='#' className="pr-3 d-inline-block" title="LinkedIn"><i className="fab fa-linkedin-in"></i></NavLink>
+                                    <NavLink href='#' className="pr-3 d-inline-block" title="Instagram"><i className="fab fa-instagram"></i></NavLink>
+                                    <NavLink href='#' className="pr-3 d-inline-block" title="Facebook"><i className="fab fa-facebook-f"></i></NavLink>
+                                    <NavLink href='#' className="pr-3 d-inline-block" title="Twitter"><i className="fab fa-twitter"></i></NavLink>
                                 </NavItem>
                             </Nav>
                         </Collapse>

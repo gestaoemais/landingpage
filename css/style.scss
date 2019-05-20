@@ -45,22 +45,6 @@ a, a i {
     &.active {
         color: rgba(255, 255, 255, 1);
     }
-
-    &:hover i.fa-instagram {
-        color: rgba(255, 220, 125, 1);
-    }
-
-    &:hover i.fa-linkedin-in {
-        color: rgba(0, 160, 220, 1);
-    }
-
-    &:hover i.fa-facebook-f {
-        color: rgba(24, 119, 242, 1);
-    }
-
-    &:hover i.fa-twitter {
-        color: rgba(29, 161, 242, 1);
-    }
 }
 
 .bg-dark {
