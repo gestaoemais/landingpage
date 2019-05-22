@@ -1,5 +1,6 @@
 import logo from '../static/logo.svg'
 import React from 'react'
+import Hero from '../components/Hero'
 import {
     Container,
     Collapse,
@@ -60,6 +61,7 @@ export default class extends React.Component {
                         </Collapse>
                     </Container>
                 </Navbar>
+                <Hero />
             </React.Fragment>
         )
     }
