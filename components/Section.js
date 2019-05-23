@@ -63,12 +63,43 @@ const Section = props => {
                                 voluptatem accusantium doloremque laudantium,
                                 totam rem aperiam, eaque ipsa quae ab.
                             </p>
-                            <p className='mb-0'>
+                            <p>
                                 Sed ut perspiciatis unde omnis iste natus error
                                 sit voluptatem accusantium doloremque
                                 laudantium, totam rem aperiam, eaque ipsa quae
                                 ab illo inventore veritatis et quasi architecto
                                 beatae vitae dicta sunt explicabo.
+                            </p>
+                        </Col>
+                    </Row>
+                    <Row className='justify-content-between'>
+                        <Col md='3'>
+                            <h4 className='inner_box__title'>Visão</h4>
+                            <p>
+                                Tornar-se uma escola de negócios, atuando de
+                                forma ampla na área de educação corporativa,
+                                buscando ser referência no estado do Piauí em um
+                                prazo de 10 anos.
+                            </p>
+                        </Col>
+                        <Col md='3'>
+                            <h4 className='inner_box__title'>Valores</h4>
+                            <ul className='pl-3'>
+                                <li>Qualidade</li>
+                                <li>Transparência</li>
+                                <li>Iniciativa</li>
+                                <li>Determinação</li>
+                                <li>Inovação</li>
+                                <li>Responsabilidade Social</li>
+                            </ul>
+                        </Col>
+                        <Col md='3'>
+                            <h4 className='inner_box__title'>Missão</h4>
+                            <p className='mb-0'>
+                                Oferecer soluções para a área da gestão de
+                                empresas que atuam nos diferentes segmentos de
+                                mercado, estimulando o empreendedorismo prezando
+                                pela qualidade, confiabilidade e competitividade
                             </p>
                         </Col>
                     </Row>

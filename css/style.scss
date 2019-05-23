@@ -76,7 +76,7 @@ a i {
     @include trs-03;
 }
 
-p {
+p, li {
     color: $main-gray;
 }
 
@@ -157,7 +157,7 @@ p {
 
 // Box
 .inner_box__figure {
-    margin-bottom: 0;
+    margin-bottom: 100px;
     overflow: hidden;
     border-radius: 6px;
 
