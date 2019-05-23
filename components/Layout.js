@@ -1,4 +1,3 @@
-import logo from '../static/logo.svg'
 import React from 'react'
 import Hero from '../components/Hero'
 import {
@@ -33,7 +32,7 @@ export default class extends React.Component {
             <React.Fragment>
                 <Navbar color='dark' dark expand='lg'>
                     <Container>
-                        <NavbarBrand href='/'><img src={logo} /></NavbarBrand>
+                        <NavbarBrand href='/'><img src={require('../static/logo.svg?inline')} /></NavbarBrand>
                         <NavbarToggler onClick={this.toggle} />
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav navbar>

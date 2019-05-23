@@ -1,4 +1,3 @@
-import aboutus from '../static/aboutus.jpg'
 import React from 'react'
 import Header from './Header'
 import Box from './Box'
@@ -38,6 +37,8 @@ const Section = props => {
                     </Row>
                 </Container>
             </section>
+            
+
             <section className='section__wrap'>
                 <Container>
                     <Header
@@ -45,10 +46,10 @@ const Section = props => {
                         sectitle='Gestão & Mais'
                         subtitle='Texto pequeno que apresente brevemente a empresa. Que tenha esse mesmo tamanho'
                     />
-                    <Row className='align-items-center justify-content-between'>
+                    <Row className='align-items-center justify-content-between mb-lg-100'>
                         <Col lg='6'>
                             <figure className='inner_box__figure'>
-                                <img src={aboutus} />
+                                <img src={require('../static/aboutus.jpg?inline')} />
                             </figure>
                         </Col>
                         <Col lg='5'>
@@ -74,12 +75,12 @@ const Section = props => {
                     </Row>
                     <Row className='justify-content-between'>
                         <Col md='3'>
-                            <h4 className='inner_box__title'>Visão</h4>
+                            <h4 className='inner_box__title'>Missão</h4>
                             <p>
-                                Tornar-se uma escola de negócios, atuando de
-                                forma ampla na área de educação corporativa,
-                                buscando ser referência no estado do Piauí em um
-                                prazo de 10 anos.
+                                Oferecer soluções para a área da gestão de
+                                empresas que atuam nos diferentes segmentos de
+                                mercado, estimulando o empreendedorismo prezando
+                                pela qualidade, confiabilidade e competitividade
                             </p>
                         </Col>
                         <Col md='3'>
@@ -94,17 +95,18 @@ const Section = props => {
                             </ul>
                         </Col>
                         <Col md='3'>
-                            <h4 className='inner_box__title'>Missão</h4>
+                            <h4 className='inner_box__title'>Visão</h4>
                             <p className='mb-0'>
-                                Oferecer soluções para a área da gestão de
-                                empresas que atuam nos diferentes segmentos de
-                                mercado, estimulando o empreendedorismo prezando
-                                pela qualidade, confiabilidade e competitividade
+                                Tornar-se uma escola de negócios, atuando de
+                                forma ampla na área de educação corporativa,
+                                buscando ser referência no estado do Piauí em um
+                                prazo de 10 anos.
                             </p>
                         </Col>
                     </Row>
                 </Container>
             </section>
+
             <section className='section__wrap'>
                 <Container>
                     <Header
