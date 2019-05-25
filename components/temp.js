@@ -1,44 +1,3 @@
-import React from 'react'
-import Header from './Header'
-import Box from './Box'
-import Forms from './Form'
-import { Container, Row, Col } from 'reactstrap'
-
-const Section = props => {
-    return (
-        <React.Fragment>
-            <section className='section__wrap'>
-                <Container>
-                    <Header
-                        tagtitle='Destaques'
-                        sectitle='Educação Corporativa'
-                        subtitle='Texto pequeno que explique brevemente o título acima. Que tenha mais ou menos esse mesmo tamanho'
-                    />
-                    <Row>
-                        <Box
-                            icon='book-open'
-                            boxtitle='Treinamentos'
-                            boxtext='Texto pequeno que explique com clareza o título acima. Que tenha mais ou menos esse mesmo tamanho e consiga ser objetivo.'
-                        />
-                        <Box
-                            icon='file-certificate'
-                            boxtitle='Pós-graduações'
-                            boxtext='Texto pequeno que explique com clareza o título acima. Que tenha mais ou menos esse mesmo tamanho e consiga ser objetivo.'
-                        />
-                        <Box
-                            icon='pencil-ruler'
-                            boxtitle='Cursos Técnicos'
-                            boxtext='Texto pequeno que explique com clareza o título acima. Que tenha mais ou menos esse mesmo tamanho e consiga ser objetivo.'
-                        />
-                        <Box
-                            icon='tools'
-                            boxtitle='Cursos Profissionalizantes'
-                            boxtext='Texto pequeno que explique com clareza o título acima. Que tenha esse mesmo tamanho.'
-                        />
-                    </Row>
-                </Container>
-            </section>
-
             <section className='section__wrap'>
                 <Container>
                     <Header
@@ -147,7 +106,9 @@ const Section = props => {
                         sectitle='Fique sempre informado!'
                         subtitle='Junte-se à nossa lista de e-mails para receber boletins informativos espontâneos'
                     />
-                    <Forms />
+                    <Row>
+                        <Forms />
+                    </Row>
                 </Container>
             </section>
             <section className='section__wrap'>
@@ -160,8 +121,3 @@ const Section = props => {
                     <Row />
                 </Container>
             </section>
-        </React.Fragment>
-    )
-}
-
-export default Section
