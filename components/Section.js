@@ -10,38 +10,6 @@ const Section = props => {
             <section className='section__wrap'>
                 <Container>
                     <Header
-                        tagtitle='Destaques'
-                        sectitle='Educação Corporativa'
-                        subtitle='Texto pequeno que explique brevemente o título acima. Que tenha mais ou menos esse mesmo tamanho'
-                    />
-                    <Row>
-                        <Box
-                            icon='book-open'
-                            boxtitle='Treinamentos'
-                            boxtext='Texto pequeno que explique com clareza o título acima. Que tenha mais ou menos esse mesmo tamanho e consiga ser objetivo.'
-                        />
-                        <Box
-                            icon='file-certificate'
-                            boxtitle='Pós-graduações'
-                            boxtext='Texto pequeno que explique com clareza o título acima. Que tenha mais ou menos esse mesmo tamanho e consiga ser objetivo.'
-                        />
-                        <Box
-                            icon='pencil-ruler'
-                            boxtitle='Cursos Técnicos'
-                            boxtext='Texto pequeno que explique com clareza o título acima. Que tenha mais ou menos esse mesmo tamanho e consiga ser objetivo.'
-                        />
-                        <Box
-                            icon='tools'
-                            boxtitle='Cursos Profissionalizantes'
-                            boxtext='Texto pequeno que explique com clareza o título acima. Que tenha esse mesmo tamanho.'
-                        />
-                    </Row>
-                </Container>
-            </section>
-
-            <section className='section__wrap'>
-                <Container>
-                    <Header
                         tagtitle='A Empresa'
                         sectitle='Gestão & Mais'
                         subtitle='Texto pequeno que apresente brevemente a empresa. Que tenha esse mesmo tamanho'
@@ -112,6 +80,38 @@ const Section = props => {
             <section className='section__wrap'>
                 <Container>
                     <Header
+                        tagtitle='Destaques'
+                        sectitle='Educação Corporativa'
+                        subtitle='Texto pequeno que explique brevemente o título acima. Que tenha mais ou menos esse mesmo tamanho'
+                    />
+                    <Row>
+                        <Box
+                            icon='book-open'
+                            boxtitle='Treinamentos'
+                            boxtext='Texto pequeno que explique com clareza o título acima. Que tenha mais ou menos esse mesmo tamanho e consiga ser objetivo.'
+                        />
+                        <Box
+                            icon='file-certificate'
+                            boxtitle='Pós-graduações'
+                            boxtext='Texto pequeno que explique com clareza o título acima. Que tenha mais ou menos esse mesmo tamanho e consiga ser objetivo.'
+                        />
+                        <Box
+                            icon='pencil-ruler'
+                            boxtitle='Cursos Técnicos'
+                            boxtext='Texto pequeno que explique com clareza o título acima. Que tenha mais ou menos esse mesmo tamanho e consiga ser objetivo.'
+                        />
+                        <Box
+                            icon='tools'
+                            boxtitle='Cursos Profissionalizantes'
+                            boxtext='Texto pequeno que explique com clareza o título acima. Que tenha esse mesmo tamanho.'
+                        />
+                    </Row>
+                </Container>
+            </section>
+
+            <section className='section__wrap'>
+                <Container>
+                    <Header
                         tagtitle='Serviços'
                         sectitle='Conheça os nossos serviços'
                         subtitle='Texto pequeno que apresente brevemente os serviços da empresa. Use um texto que tenha esse mesmo tamanho'
@@ -157,7 +157,33 @@ const Section = props => {
                         sectitle='Entre em contato com a gente'
                         subtitle='Mande-nos uma mensagem ou faça-nos uma visita e tire suas dúvidas'
                     />
-                    <Row />
+                    <Row className='justify-content-between'>
+                        <Col md='7'>
+                            <div className='embed-responsive embed-responsive-4by3 mb-sm-100'>
+                                <iframe
+                                    className='embed-responsive-item'
+                                    width='100%'
+                                    height='100%'
+                                    id='gmap_canvas'
+                                    src='https://maps.google.com/maps?q=Avenida%20Campos%20Sales%20n%C2%B0%201625&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed'
+                                    frameBorder='0'
+                                    scrolling='no'
+                                    marginHeight='0'
+                                    marginWidth='0'
+                                />
+                            </div>
+                        </Col>
+                        <Col md='4'>
+                            <h5>Endereço</h5>
+                            <p>Av. Campos Sales, 1625, Teresina - PI</p>
+                            <h5>E-mail</h5>
+                            <p><a href="mailto:gestaoemais@gmail.com"  className='linkApp' title='Nosso e-mail'>gestaoemais@gmail.com</a></p>
+                            <h5>Telefone</h5>
+                            <p><a href="tel:8632215524" className='linkApp' title='Nosso telefone'>(86) 3221-5524</a></p>
+                            <h5>WhatsApp</h5>
+                            <p><a href="https://wa.me/5586994137903?text=I'm%20inquiring%20about%20the%20apartment%20listing"  className='linkApp' title='Nosso WhatsApp'>(86) 99413-7903</a></p>
+                        </Col>
+                    </Row>
                 </Container>
             </section>
         </React.Fragment>

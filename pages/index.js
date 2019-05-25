@@ -6,6 +6,7 @@ import React from 'react'
 import HeadPage from '../components/Head'
 import Layout from '../components/Layout'
 import Section from '../components/Section'
+import Footer from '../components/Footer'
 
 export default function Index() {
     return (
@@ -13,6 +14,7 @@ export default function Index() {
             <HeadPage />
             <Layout />
             <Section />
+            <Footer />
         </React.Fragment>
     )
 }

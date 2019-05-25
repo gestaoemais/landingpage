@@ -37,10 +37,10 @@ export default class extends React.Component {
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav navbar>
                                 <NavItem>
-                                    <NavLink href='#highlights' active>Destaques</NavLink>
+                                    <NavLink href='#aboutus' active>Sobre Nós</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href='#aboutus'>Sobre Nós</NavLink>
+                                    <NavLink href='#highlights'>Destaques</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href='#services'>Serviços</NavLink>
@@ -51,10 +51,10 @@ export default class extends React.Component {
                             </Nav>
                             <Nav className='ml-auto' navbar>
                                 <NavItem>
-                                    <NavLink href='#' className="pr-3 d-inline-block" title="LinkedIn"><i className="fab fa-linkedin-in"></i></NavLink>
-                                    <NavLink href='#' className="pr-3 d-inline-block" title="Instagram"><i className="fab fa-instagram"></i></NavLink>
-                                    <NavLink href='#' className="pr-3 d-inline-block" title="Facebook"><i className="fab fa-facebook-f"></i></NavLink>
-                                    <NavLink href='#' className="pr-3 d-inline-block" title="Twitter"><i className="fab fa-twitter"></i></NavLink>
+                                    <NavLink href='#' className="pr-3 d-inline-block" target='_blank' rel='noopener' title="LinkedIn"><i className="fab fa-linkedin-in"></i></NavLink>
+                                    <NavLink href='https://www.instagram.com/gestao.e.mais/' className="pr-3 d-inline-block" target='_blank' rel='noopener' title="Instagram"><i className="fab fa-instagram"></i></NavLink>
+                                    <NavLink href='https://www.facebook.com/Gestaoemais/' target='_blank' rel='noopener' className="pr-3 d-inline-block" title="Facebook"><i className="fab fa-facebook-f"></i></NavLink>
+                                    <NavLink href='#' className="pr-3 d-inline-block" target='_blank' rel='noopener' title="Twitter"><i className="fab fa-twitter"></i></NavLink>
                                 </NavItem>
                             </Nav>
                         </Collapse>

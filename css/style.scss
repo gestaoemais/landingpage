@@ -45,7 +45,9 @@ body {
     height: 100%;
 }
 
-* { -webkit-tap-highlight-color: transparent; }
+* {
+    -webkit-tap-highlight-color: transparent;
+}
 
 *:focus,
 *.form-control:focus {
@@ -67,6 +69,7 @@ h6 {
 }
 
 a,
+a:visited,
 .btn {
     color: $main-black;
 }
@@ -89,8 +92,13 @@ a i {
 }
 
 p,
-li {
+li,
+a.linkApp {
     color: $main-gray;
+}
+
+a.linkApp:hover {
+    color: $main-blue;
 }
 
 /// CUSTOM RULES
@@ -319,6 +327,7 @@ div.hero {
 }
 
 .wrap_form__btn {
+    letter-spacing: 3px;
     padding: 18px 36px 17px;
     text-align: center;
     width: 100%;
@@ -337,6 +346,24 @@ div.hero {
         background-color: $dark-blue !important;
         border: 3px solid $dark-blue !important;
     }
+}
+
+/// FOOTER
+.wrap_footer {
+    color: #FFF;
+    background-color: $main-dark;
+
+    p {
+        font-weight: 300;
+        font-size: 13px;
+        letter-spacing: -0.04em;
+        color: #fff;
+    }
+}
+
+img.footer-brand {
+    width: 218.55px;
+    height: 40px;
 }
 
 /// RESPONSIVE
@@ -360,6 +387,10 @@ div.hero {
 }
 
 @media screen and (max-width: 767px) {
+    .mb-sm-100 {
+        margin-bottom: calc(50px + (100 - 50) * ((100vw - 300px) / (1200 - 300)));
+    }
+
     .inner_box {
         margin-bottom: 40px;
     }
