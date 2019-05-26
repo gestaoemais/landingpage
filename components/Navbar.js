@@ -1,5 +1,4 @@
 import React from 'react'
-import Hero from '../components/Hero'
 import {
     Container,
     Collapse,
@@ -37,7 +36,7 @@ export default class extends React.Component {
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav navbar>
                                 <NavItem>
-                                    <NavLink href='#aboutus' active>Sobre Nós</NavLink>
+                                    <NavLink data-scroll href='#aboutus'>Sobre Nós</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href='#highlights'>Destaques</NavLink>
@@ -60,7 +59,6 @@ export default class extends React.Component {
                         </Collapse>
                     </Container>
                 </Navbar>
-                <Hero />
             </React.Fragment>
         )
     }

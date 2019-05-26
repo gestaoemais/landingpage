@@ -8,7 +8,9 @@ const Footer = props => {
                 <Container>
                     <Row>
                         <Col>
-                            <img className='footer-brand mb-4' src={require('../static/logo.svg?inline')} />
+                            <a href="#start">
+                                <img className='footer-brand mb-4' src={require('../static/logo.svg?inline')} />
+                            </a>
                             <p className='mb-0'>© 2019 - Todos os direitos reservados</p>
                         </Col>
                     </Row>

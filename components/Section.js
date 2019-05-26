@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'reactstrap'
 const Section = props => {
     return (
         <React.Fragment>
-            <section className='section__wrap'>
+            <section id='aboutus' className='section__wrap'>
                 <Container>
                     <Header
                         tagtitle='A Empresa'
@@ -19,6 +19,7 @@ const Section = props => {
                             <figure className='inner_box__figure'>
                                 <img
                                     src={require('../static/aboutus.jpg?inline')}
+                                    alt='Sobre a nossa história'
                                 />
                             </figure>
                         </Col>
@@ -77,7 +78,7 @@ const Section = props => {
                 </Container>
             </section>
 
-            <section className='section__wrap'>
+            <section id='highlights' className='section__wrap'>
                 <Container>
                     <Header
                         tagtitle='Destaques'
@@ -109,7 +110,7 @@ const Section = props => {
                 </Container>
             </section>
 
-            <section className='section__wrap'>
+            <section id='services' className='section__wrap'>
                 <Container>
                     <Header
                         tagtitle='Serviços'
@@ -150,7 +151,7 @@ const Section = props => {
                     <Forms />
                 </Container>
             </section>
-            <section className='section__wrap'>
+            <section id='contact' className='section__wrap'>
                 <Container>
                     <Header
                         tagtitle='Contato'
@@ -181,6 +182,7 @@ const Section = props => {
                             <h5>Telefone</h5>
                             <p><a href="tel:8632215524" className='linkApp' title='Nosso telefone'>(86) 3221-5524</a></p>
                             <h5>WhatsApp</h5>
+                            <p className='small_text'>Clique para entrar em contato:</p>
                             <p><a href="https://wa.me/5586994137903?text=I'm%20inquiring%20about%20the%20apartment%20listing"  className='linkApp' title='Nosso WhatsApp'>(86) 99413-7903</a></p>
                         </Col>
                     </Row>

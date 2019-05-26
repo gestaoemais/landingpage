@@ -27,6 +27,7 @@ $main-gray: #868e96;
 $main-dark: #24292e;
 $main-blue: #1ba8ca;
 $dark-blue: #01718B;
+$main-green: #DBEA6A;
 $dark-green: #7A8910;
 
 // Transitions
@@ -35,14 +36,14 @@ $dark-green: #7A8910;
 }
 
 /// GENERAL RULES
-body {
-    font-family: $bd-ft;
-    font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1200 - 300)));
-}
-
 html,
 body {
     height: 100%;
+}
+
+body {
+    font-family: $bd-ft;
+    font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1200 - 300)));
 }
 
 * {
@@ -92,16 +93,24 @@ a i {
 }
 
 p,
-li,
-a.linkApp {
+li {
     color: $main-gray;
 }
 
-a.linkApp:hover {
+a.linkApp {
     color: $main-blue;
 }
 
+a.linkApp:hover {
+    color: $dark-blue;
+}
+
 /// CUSTOM RULES
+.small_text {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
 // Buttons
 .btn {
     padding: 16px 36px;
@@ -225,14 +234,14 @@ a.linkApp:hover {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7);
     font-weight: 300;
     padding-top: $vr-06;
     padding-right: $vr-12;
     padding-bottom: $vr-06;
     padding-left: $vr-12;
 
-    &:hover,
-    &.active {
+    &:hover {
         color: rgba(255, 255, 255, 1);
     }
 }
@@ -259,7 +268,7 @@ a.linkApp:hover {
 
 div.hero {
     width: 100%;
-    background-image: url('/static/hero.jpg?inline');
+    background-image: url('/static/hero.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -323,7 +332,6 @@ div.hero {
         border-radius: 30px;
         border-color: transparent;
     }
-
 }
 
 .wrap_form__btn {
