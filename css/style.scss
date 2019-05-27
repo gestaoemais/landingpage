@@ -22,9 +22,10 @@ $vr-70: 4.375rem;
 
 // Colors
 $main-black: #161616;
-$light-black: #495057;
-$main-gray: #868e96;
-$main-dark: #24292e;
+$light-black: #495057; // Subtitles
+$main-gray: #868e96; // Body
+$light-gray: #D8D8D8; // Buttons
+$main-dark: #24292e; // Titles
 $main-blue: #1ba8ca;
 $dark-blue: #01718B;
 $main-green: #DBEA6A;
@@ -116,6 +117,23 @@ a.linkApp:hover {
     padding: 16px 36px;
     font-weight: 700;
     font-size: 14px;
+}
+
+.btn_modal,
+.btn_modal:visited {
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    color: $main-dark;
+    background-color: $light-gray;
+    
+    &:hover {
+        background-color: $main-dark;
+        color: #FFF;
+    }
 }
 
 .btn-primary {
@@ -221,10 +239,6 @@ a.linkApp:hover {
     font-size: $vr-16;
     font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1200 - 300)));
     margin-bottom: 26px;
-}
-
-.btn.inner_box__btn {
-    padding: 0;
 }
 
 // Navbar
@@ -342,7 +356,7 @@ div.hero {
     color: #FFF;
     border-radius: 30px !important;
     background: #1ba8ca;
-    border: 3px solid #1ba8ca;
+    border: 3px solid $main-blue;
 
     &:hover {
         color: #FFF;

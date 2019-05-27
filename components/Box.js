@@ -1,4 +1,5 @@
 import React from 'react'
+import Modals from './Modal'
 import { Col } from 'reactstrap'
 
 const Box = props => {
@@ -8,7 +9,7 @@ const Box = props => {
                 <i className={`inner_box__iconL fal fa-${props.icon}`}></i>
                 <h4 className="inner_box__title">{props.boxtitle}</h4>
                 <p className="inner_box__p">{props.boxtext}</p>
-                <a href="#" className="btn inner_box__btn btn-link">Saiba mais</a>
+                <Modals {...props} />
             </Col>
         </React.Fragment>
     )
