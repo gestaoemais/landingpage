@@ -28,19 +28,15 @@ const Section = props => {
                                 Conheça a nossa história
                             </h4>
                             <p>
-                                Texto pequeno que explique com clareza o título
-                                acima. Que tenha mais ou menos esse mesmo
-                                tamanho e consiga ser objetivo. Sed ut
-                                perspiciatis unde omnis iste natus error sit
-                                voluptatem accusantium doloremque laudantium,
-                                totam rem aperiam, eaque ipsa quae ab.
-                            </p>
-                            <p>
-                                Sed ut perspiciatis unde omnis iste natus error
-                                sit voluptatem accusantium doloremque
-                                laudantium, totam rem aperiam, eaque ipsa quae
-                                ab illo inventore veritatis et quasi architecto
-                                beatae vitae dicta sunt explicabo.
+                                A Gestão & Mais atua há mais de 10 anos no
+                                mercado, onde oferece um leque de ações pras
+                                empresas que estão mercado, assessorando as
+                                mesmas a se desenvolverem através de nossos
+                                produtos e serviços. Dentre eles, enfatizamos os
+                                nossos serviços de Treinamentos, Recrutamento e
+                                Seleção, Eventos , Locação de salas para
+                                reuniões e palestras, Missão-Executivas , dentre
+                                outras ações.
                             </p>
                         </Col>
                     </Row>
@@ -152,7 +148,7 @@ const Section = props => {
                             modalContent_4='Compreende todos os procedimentos utilizados pelas empresas para divulgar suas vagas e atrair candidatos potencialmente qualificados a ocupar um cargo, ou seja, é a maneira como as empresas comunicam e divulgam no mercado suas ofertas de oportunidade de emprego.'
                             modalInnerTitle_5='SELEÇÃO'
                             modalContent_5='É o processo sistematizado de escolha entre candidatos que foram recrutados. A seleção visa prever qual deles terá o melhor desempenho na vaga em questão para fins de contratação.'
-                            />
+                        />
                         <Box
                             icon='passport'
                             boxtitle='Turismo de Negócios'
@@ -161,7 +157,7 @@ const Section = props => {
                             modalContent_1='O turismo de negócios compreende o projeto da  Missão-Executiva que tem como objetivo conhecer modelos de gestão utilizados por grandes empresas, nacional e multinacional e esta será a 11a edição organizada pela Gestão & Mais, onde você terá uma EXPERIÊNCIA incrível de Aprendizado  na Prática !!'
                             modalContent_2='Em outras edições, visitamos empresas em São Paulo e em Curitiba, como Natura, Bosch, General Motors (Chevrolet), Magazine Luiza, Porto de Santos, Nestlé, Suzano Celulose, Bolsa de Valores de São Paulo, Heineken, Wirlpool, Itautec, World Trade Center, Fabrica do Boticário, Fabrica Malwee, Fabrica da Tigre e o Porto de Itajaí, Fabrica da Toyota, Loja do Futuro Oministore, além outras.'
                             modalContent_3='Nesta edição de 2019, a cidade de destino será São Paulo – SP e aberto a todos que tenham interesse em ter essa experiência na sua carreira e na sua Vida.'
-                            />
+                        />
                         <Box
                             icon='building'
                             boxtitle='Locação de Sala'
@@ -172,7 +168,7 @@ const Section = props => {
                         <Box
                             icon='chart-network'
                             boxtitle='Eventos Corporativos'
-                            boxtext='Realizamos vários eventos corporativos como forma de fomentar e de atualizar os participante.'
+                            boxtext='Realizamos vários eventos corporativos como forma de fomentar e de atualizar os participantes.'
                             modalContent_1='Realizamos vários eventos corporativos como forma de fomentar de atualizar os participante e intensificar o  networking entre os profissionais e empresas, como o Café Empresarial,  confraria de RH, confraria de Markentin e Confraria de Empreendedorismo, Expo-Vagas, Experience, Office trade , além de outros. Acompanhe as nossas redes sociais e fique por dentro!'
                         />
                     </Row>
