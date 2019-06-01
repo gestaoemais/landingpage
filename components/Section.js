@@ -85,8 +85,9 @@ const Section = props => {
                         <Box
                             icon='book-open'
                             boxtitle='Treinamentos'
-                            boxtext='Texto pequeno que explique com clareza o título acima. Que tenha mais ou menos esse mesmo tamanho e consiga ser objetivo.'
-                            modalContent='Teste de conteúdo'
+                            boxtext='A sua empresa pode alcançar suas metas de uma forma mais rápida  através de uma equipe bem preparada e com as suas...'
+                            modalContent_1='A sua empresa pode alcançar as suas metas de uma forma mais rápida através de uma equipe bem preparada e com as suas respectivas competências bem desenvolvidas,  para isso , dispomos de uma vasta programação de treinamentos que são oferecidos de forma aberta ou na modalidade in company, onde esse último será exclusivamente para sua equipe, podendo ser na nossa estrutura ou na sua própria empresa.'
+                            modalContent_2='Entre em contato conosco e teremos o maior prazer para atender a sua necessidade!'
                         />
                         <Box
                             icon='file-certificate'
