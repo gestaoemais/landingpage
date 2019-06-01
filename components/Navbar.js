@@ -30,6 +30,7 @@ export default class extends React.Component {
         return (
             <React.Fragment>
                 <Navbar color='dark' dark expand='lg'>
+                    <h4 class="sr-only">Menu principal</h4>
                     <Container>
                         <NavbarBrand href='/'><img src={require('../static/logo.svg?inline')} /></NavbarBrand>
                         <NavbarToggler onClick={this.toggle} />

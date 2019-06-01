@@ -60,7 +60,7 @@ const Section = props => {
                                 <li>Qualidade</li>
                                 <li>Transparência</li>
                                 <li>Iniciativa</li>
-                                <li>Determinação</li>
+                                <li>Garra</li>
                                 <li>Inovação</li>
                                 <li>Responsabilidade Social</li>
                             </ul>
@@ -171,9 +171,9 @@ const Section = props => {
                         />
                         <Box
                             icon='chart-network'
-                            boxtitle='Networking'
-                            boxtext='Texto pequeno que explique com clareza o título acima. Que tenha mais ou menos esse mesmo tamanho e consiga ser objetivo.'
-                            modalContent='Teste de conteúdo'
+                            boxtitle='Eventos Corporativos'
+                            boxtext='Realizamos vários eventos corporativos como forma de fomentar e de atualizar os participante.'
+                            modalContent_1='Realizamos vários eventos corporativos como forma de fomentar de atualizar os participante e intensificar o  networking entre os profissionais e empresas, como o Café Empresarial,  confraria de RH, confraria de Markentin e Confraria de Empreendedorismo, Expo-Vagas, Experience, Office trade , além de outros. Acompanhe as nossas redes sociais e fique por dentro!'
                         />
                     </Row>
                 </Container>

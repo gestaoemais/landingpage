@@ -13,6 +13,7 @@ export default function Index() {
     return (
         <React.Fragment>
             <Head />
+            <h1 class="sr-only">Gestão & Mais - Agência de Negócios</h1>
             <Navbar />
             <Hero />
             <Section />
