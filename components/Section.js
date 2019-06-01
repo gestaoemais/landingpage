@@ -104,8 +104,10 @@ const Section = props => {
                         <Box
                             icon='tools'
                             boxtitle='Cursos Profissionalizantes'
-                            boxtext='Texto pequeno que explique com clareza o título acima. Que tenha esse mesmo tamanho.'
-                            modalContent='Teste de conteúdo'
+                            boxtext='Os nossos cursos profissionalizantes possuem uma efetivação rápida e dinâmica.'
+                            modalContent_1='Os nossos cursos possuem duração de 01 (um) mês, sendo 5 (cinco) encontros no mês, um por semana, e uma prova online no final.'
+                            modalContent_2='Valor de R$ 100,00 ( material +  certificado + workshop) e certificado de 20h/a.'
+                            modalContent_3='São eles: Ass.Adm. de RH, Logistica, Depto. Pessoal, Credito e Cobrança, Almoxarifado, além de Recepcionista , Op. Caixa, Atendente de Farmacia,aux.contábil, Cuidador de Idoso, etc.'
                         />
                     </Row>
                 </Container>
