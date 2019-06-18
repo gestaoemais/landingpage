@@ -15,7 +15,7 @@ const Hero = props => {
                   mais ou menos esse mesmo tamanho.
                 </p>
                 <p className="lead mb-0">
-                  <a href="#highlights" className="btn btn-primary">
+                  <a href="#aboutus" className="btn btn-primary">
                     Saiba mais sobre nós
                   </a>
                 </p>
