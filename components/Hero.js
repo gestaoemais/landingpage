@@ -16,7 +16,7 @@ const Hero = props => {
                 </p>
                 <p className="lead mb-0">
                   <a href="#aboutus" className="btn btn-primary">
-                    Saiba mais Sobre Nós
+                    Saiba mais sobre nós
                   </a>
                 </p>
               </div>
