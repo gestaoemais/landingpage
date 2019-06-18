@@ -10,14 +10,14 @@ import Section from '../components/Section'
 import Footer from '../components/Footer'
 
 export default function Index() {
-    return (
-        <React.Fragment>
-            <Head />
-            <h1 class="sr-only">Gestão & Mais - Agência de Negócios</h1>
-            <Navbar />
-            <Hero />
-            <Section />
-            <Footer />
-        </React.Fragment>
-    )
+  return (
+    <React.Fragment>
+      <Head />
+      <h1 class="sr-only">Gestão & Mais - Agência de Negócios</h1>
+      <Navbar />
+      <Hero />
+      <Section />
+      <Footer />
+    </React.Fragment>
+  )
 }

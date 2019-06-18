@@ -93,7 +93,8 @@ const Section = props => {
                             icon='file-certificate'
                             boxtitle='Pós-graduações'
                             boxtext='Texto pequeno que explique com clareza o título acima. Que tenha mais ou menos esse mesmo tamanho e consiga ser objetivo.'
-                            modalContent='Teste de conteúdo'
+                            modalContent_1='Estamos na era do conhecimento e com isso o mercado de trabalho exige que
+                            os profissionais tenham um nível de qualificação elevado para que possam corresponder a política de competitividade das empresas, onde através de um aperfeiçoamento com um carga-horária ampla e robusta poderá ser possivel a chegar esse patamar. Em virtude desse cenário, ofertamos várias especializações  a nível de lato sensu , como logistica empresarial, MBA em gestão de Pessoas, adm. da produção, Adm. financeira , liderança e gestão empresarial, além de outras. Todas tendo uma grade curricular dinâmica e condizente com o mercado, além de possuirmos um  corpo docente contendo   professores mestres e doutores, Todos com sólida vivencia acadêmica e de mercado,  contribuindo assim de forma significativa  junto aos programas de educação corporativa  desenvolvida por nossa instituição.'
                         />
                         <Box
                             icon='pencil-ruler'

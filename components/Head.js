@@ -12,7 +12,7 @@ function HeadPage() {
             />
             <meta name='keywords' content='true' />
             <title>Gestão & Mais - Agência de Negócios</title>
-            <meta name='description' content='Com mais de 10 anos no mercado oferecemos um leque de soluções para gestão empresarial, assessorando empresas a se desenvolverem no seu mercado.' />
+            <meta name='description' content='Com mais de 10 anos no mercado, oferecemos soluções para gestão empresarial, assessorando empresas a se desenvolverem no mercado de forma competitiva.' />
             <link
                 rel='canonical'
                 href='https://gestaoemais.com.br/'
@@ -25,7 +25,7 @@ function HeadPage() {
                 content='https://gestaoemais.com.br/'
             />
             <meta name='twitter:title' content='Gestão & Mais - Agência de Negócios' />
-            <meta name='twitter:description' content='Com mais de 10 anos no mercado oferecemos um leque de soluções para gestão empresarial, assessorando empresas a se desenvolverem no seu mercado.' />
+            <meta name='twitter:description' content='Com mais de 10 anos no mercado, oferecemos soluções para gestão empresarial, assessorando empresas a se desenvolverem no mercado de forma competitiva.' />
             <meta
                 name='twitter:image:src'
                 content='https://gestaoemais.com.br/static/social_image.jpg'
@@ -36,7 +36,7 @@ function HeadPage() {
                 content='https://gestaoemais.com.br/'
             />
             <meta property='og:title' content='Gestão & Mais - Agência de Negócios' />
-            <meta property='og:description' content='Com mais de 10 anos no mercado oferecemos um leque de soluções para gestão empresarial, assessorando empresas a se desenvolverem no seu mercado.' />
+            <meta property='og:description' content='Com mais de 10 anos no mercado, oferecemos soluções para gestão empresarial, assessorando empresas a se desenvolverem no mercado de forma competitiva.' />
             <meta
                 property='og:image'
                 content='https://gestaoemais.com.br/static/social_image.jpg'
