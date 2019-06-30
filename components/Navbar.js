@@ -56,7 +56,7 @@ export default class extends React.Component {
               <Nav className="ml-auto" navbar>
                 <NavItem>
                   <NavLink
-                    href="#"
+                    href="https://www.linkedin.com/company/gestão-e-mais/"
                     className="pr-3 d-inline-block"
                     target="_blank"
                     rel="noopener"
@@ -81,15 +81,6 @@ export default class extends React.Component {
                     title="Facebook"
                   >
                     <i className="fab fa-facebook-f" />
-                  </NavLink>
-                  <NavLink
-                    href="#"
-                    className="pr-3 d-inline-block"
-                    target="_blank"
-                    rel="noopener"
-                    title="Twitter"
-                  >
-                    <i className="fab fa-twitter" />
                   </NavLink>
                 </NavItem>
               </Nav>
